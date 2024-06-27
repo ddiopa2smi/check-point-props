@@ -5,7 +5,9 @@ import Col from 'react-bootstrap/Col';
 
 
 
-function Player({ name, imageURL, age, team, jerseyNumber, nationality }) {
+function Player(props) {
+
+    const { name, imageURL = 'img/default.jpeg', age, team, jerseyNumber, nationality } = props;
 
     return (
         <>
