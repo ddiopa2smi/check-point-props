@@ -2,8 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { playersList } from './players'
-import Player from './Components/Player'
+import { playersList } from '../players'
+import Player from './Player'
 import Alert from 'react-bootstrap/Alert';
 
 const PlayersList = () => {
